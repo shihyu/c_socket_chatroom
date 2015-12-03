@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"socket",
+				"socket_object"
+			],
+			[
+				"message",
+				"message_queue"
+			],
+			[
+				"read",
+				"read_link"
+			],
+			[
+				"write_link_des",
+				"write_link_destroy_node"
+			],
+			[
+				"socke",
+				"socket_object"
+			],
+			[
 				"st",
 				"style	Tag"
 			],
@@ -494,36 +514,48 @@
 			[
 				"getLevel",
 				"getLevel()	skill"
-			],
-			[
-				"field",
-				"fieldView"
-			],
-			[
-				"RIGHT",
-				"right"
-			],
-			[
-				"effectcO",
-				"effectContainer"
-			],
-			[
-				"trick",
-				"trick_name"
-			],
-			[
-				"hp_bar",
-				"hp_bar_scale"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "server.c",
+			"file": "makefile",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 184,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "socket_object.c",
+			"settings":
+			{
+				"buffer_size": 161,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "socket_object.h",
+			"settings":
+			{
+				"buffer_size": 1306,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "buffer_link.c",
+			"settings":
+			{
+				"buffer_size": 1060,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "buffer_link.h",
+			"settings":
+			{
+				"buffer_size": 758,
 				"line_ending": "Unix"
 			}
 		}
@@ -594,8 +626,17 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/zhenyuyao/works/projects/chatroom/code/server_c_socket_chatroom"
+	],
 	"file_history":
 	[
+		"/Users/zhenyuyao/works/projects/chatroom/code/server_c_socket_chatroom/read_link.c",
+		"/Users/zhenyuyao/works/projects/chatroom/code/server_c_socket_chatroom/read_link.h",
+		"/Users/zhenyuyao/works/projects/chatroom/code/server_c_socket_chatroom/user.h",
+		"/Users/zhenyuyao/works/projects/chatroom/code/server_c_socket_chatroom/server.c",
+		"/Users/zhenyuyao/works/projects/chatroom/code/server_c_socket_chatroom/main.c",
 		"/Users/zhenyuyao/Desktop/tmp/sample/html1.html",
 		"/Users/zhenyuyao/Downloads/apue.3e/lib/bufargs.c",
 		"/Users/zhenyuyao/Downloads/apue.3e/include/apue.h",
@@ -718,16 +759,11 @@
 		"/Work/WORKS-SVN/projects/MG-Clean/code/client/clean/src/cocos/init.lua",
 		"/Work/WORKS-SVN/projects/MG-Clean/code/client/clean/src/app/MyApp.lua",
 		"/Work/WORKS-SVN/projects/MG-Clean/code/client/clean/src/config.lua",
-		"/Work/WORKS-SVN/projects/MG-Clean/code/client/clean/src/clean/battle/bullet/MagicSSkillBullet.lua",
-		"/Work/WORKS-SVN/projects/MG-Clean/code/client/clean/res/ver_0.0.1/Common/Set_Animation.plist",
-		"/Work/WORKS-SVN/projects/MG-Clean/code/client/clean/src/clean/battle/buff/BuffIconFactory.lua",
-		"/Work/WORKS-SVN/projects/MG-Clean/code/global/config/s_10003_number_conf.lua",
-		"/Work/WORKS-SVN/projects/MG-Clean/code/client/clean/src/clean/config/R_112001_Anim_Conf.lua",
-		"/Work/WORKS-SVN/projects/MG-Clean/code/client/clean/src/clean/battle/bullet/MagicBullet.lua"
+		"/Work/WORKS-SVN/projects/MG-Clean/code/client/clean/src/clean/battle/bullet/MagicSSkillBullet.lua"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -767,6 +803,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"w",
+			"write",
+			"send_queue_create",
 			"socket_object_interface",
 			"send_object",
 			"append_sendbuffer_",
@@ -891,10 +930,7 @@
 			"skynet_mq_push",
 			"session",
 			"skynet_context_push",
-			"HANDLE_REMOTE_SHIFT",
-			"timer_add",
-			"expire",
-			"->expire"
+			"HANDLE_REMOTE_SHIFT"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -902,6 +938,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"buffer",
 			"MagicSSkillBullet",
 			"MagicSkillBullet",
 			"10001",
@@ -1028,8 +1065,7 @@
 			"cc.armor",
 			"armor_cmd",
 			"newSkillsId",
-			"armorId",
-			"num"
+			"armorId"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1040,24 +1076,52 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "server.c",
+					"file": "makefile",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 184,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "socket_object.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
 							]
 						],
 						"settings":
@@ -1068,7 +1132,92 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "socket_object.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1204,
+								1204
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 222.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "buffer_link.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1060,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								299,
+								298
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 86.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "buffer_link.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								619,
+								619
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1117,7 +1266,7 @@
 	"project": "chatroom.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1126,6 +1275,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"user.h",
+				"user.h"
+			],
+			[
+				"user.",
+				"user.h"
+			],
 			[
 				"socket_server.h",
 				"skynet-src/socket_server.h"
@@ -1629,14 +1786,6 @@
 			[
 				"magicsski",
 				"src/clean/battle/bullet/MagicSSkillBullet.lua"
-			],
-			[
-				"s_10003",
-				"global/config/s_10003_number_conf.lua"
-			],
-			[
-				"s_10002",
-				"global/config/s_10002_number_conf.lua"
 			]
 		],
 		"width": 0.0
@@ -1652,8 +1801,8 @@
 	},
 	"select_symbol":
 	{
-		"height": 67.0,
-		"last_filter": "skynet_gettime",
+		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1770,8 +1919,8 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 266.0,
+	"side_bar_visible": true,
+	"side_bar_width": 206.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
